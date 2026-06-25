@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱游戏 · 知识库入口</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f9fafc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #1e293b;
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+        }
+        .page {
+            max-width: 740px;
+            margin: 0 auto;
+        }
+        /* 标题层级 */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #64748b;
+            border-left: 3px solid #3b82f6;
+            padding-left: 1rem;
+            margin-bottom: 2.8rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-top: 2.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #334155;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            color: #334155;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        a:hover {
+            border-bottom-color: #2563eb;
+        }
+        /* 卡片区域 */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin: 2rem 0 1.5rem;
+        }
+        .info-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 1.4rem 1.2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 2px 6px rgba(0,0,0,0.02);
+            border: 1px solid #eef2f6;
+        }
+        .info-card strong {
+            display: block;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #0f172a;
+            margin-bottom: 0.25rem;
+        }
+        .info-card p {
+            font-size: 0.9rem;
+            color: #475569;
+            margin-bottom: 0;
+        }
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+        .faq-item .q {
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 0.1rem;
+        }
+        .faq-item .a {
+            color: #475569;
+            font-size: 0.95rem;
+            padding-left: 0.2rem;
+        }
+        .tip-box {
+            background: #f1f5f9;
+            border-left: 4px solid #2563eb;
+            padding: 1.2rem 1.4rem;
+            border-radius: 0 10px 10px 0;
+            margin: 2rem 0 1.8rem;
+            font-size: 0.95rem;
+        }
+        .tip-box strong {
+            color: #1e293b;
+        }
+        .divider {
+            margin: 2.8rem 0 1.8rem;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #d1d9e6, transparent);
+        }
+        .footer-note {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 2rem;
+            margin-top: 1rem;
+        }
+        @media (max-width: 600px) {
+            body { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.8rem; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <h1>爱游戏 · 信息索引</h1>
+    <div class="subhead">从日常查询、对照到延伸阅读 — 知识库式入口</div>
+
+    <p>无论是初次接触还是需要快速回顾，<a href="https://ayx-webs-sports.com">爱游戏</a>提供了一套结构清晰的资料体系。当前页面以「知识库入口」为设计方向，将常用信息、常见疑问和延伸线索组织为卡片与段落，便于按需查找与对照。</p>
+
+    <h2>▎快速对照区</h2>
+    <div class="info-grid">
+        <div class="info-card">
+            <strong>📋 平台定位</strong>
+            <p>综合型体育资讯与互动社区，涵盖赛事数据、运动知识、用户交流等模块。</p>
+        </div>
+        <div class="info-card">
+            <strong>🔍 内容覆盖</strong>
+            <p>包括但不限于足球、篮球、网球、电竞及户外运动，按项目分类索引。</p>
+        </div>
+        <div class="info-card">
+            <strong>📚 知识条目</strong>
+            <p>规则解析、术语对照、训练基础、赛事背景——支持多维度浏览。</p>
+        </div>
+        <div class="info-card">
+            <strong>⚙️ 使用场景</strong>
+            <p>日常信息查询、赛前准备、深度阅读、社区讨论，均可快速切入。</p>
+        </div>
+    </div>
+
+    <h2>▎延伸阅读 · 常见疑问摘要</h2>
+    <div class="faq-item">
+        <div class="q">Q：如何获取特定运动项目的规则说明？</div>
+        <div class="a">通过站内分类导航进入对应项目板块，多数页面附有「快速规则」与「常见术语」卡片。也可直接搜索关键词查找相关条目。</div>
+    </div>
+    <div class="faq-item">
+        <div class="q">Q：是否提供历史赛事的对照查询？</div>
+        <div class="a">部分重要赛事设有回顾专区，包含赛程、数据摘要及简评。内容由社区与编辑共同维护，更新频率因项目而异。</div>
+    </div>
+    <div class="faq-item">
+        <div class="q">Q：站内信息与外部资料如何衔接？</div>
+        <div class="a">每个知识条目的底部通常列出参考来源或延伸链接，方便进行横向对比。建议保持批判性阅读，必要时核实原始数据。</div>
+    </div>
+
+    <div class="tip-box">
+        <strong>💡 使用提示</strong> · 将当前页面加入书签可作为快速跳转起点。利用「爱游戏」首页的搜索栏可直接定位具体条目；若需系统性了解某项目，建议先浏览该分类下的「目录总览」。
+    </div>
+
+    <h2>▎相关信息 · 结构概览</h2>
+    <p>站内信息按「运动种类—细分领域—具体条目」三级组织。例如：<strong>足球</strong> → 规则 / 战术 / 联赛 / 术语 → 每类下设若干独立页面。对照查阅时，可同时打开两个相关条目进行横向阅读。</p>
+    <p>另外，部分内容以「对比表」形式呈现（如不同联赛赛制差异、相似规则对照），便于快速抓取关键差异。社区讨论区也沉淀了大量用户整理的补充笔记，可作为延伸参考。</p>
+
+    <h3>🔹 推荐的使用路径</h3>
+    <p>从<a href="https://ayx-webs-sports.com">爱游戏</a>首页导航栏选择感兴趣的运动大类 → 浏览目录卡片 → 点击条目阅读详情。若需查找特定术语，直接使用顶部搜索框。日常关注某一项目的用户，可订阅对应分类的更新摘要。</p>
+
+    <hr class="divider">
+
+    <div class="footer-note">
+        本页为独立知识索引页面，内容基于公开资料与站内信息结构整理。所有信息仅供参考，详细数据请以各运动官方或原出处为准。
+    </div>
+
+</div>
+</body>
+</html>
